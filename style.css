@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Lexend+Deca:wght@100..900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -28,6 +30,8 @@ body {
   flex-direction: column;
   justify-content: space-between;
   gap: 1.5rem;
+  font-family: 'Lexend Deca';
+  font-weight: 300;
 }
 
 .card img {
@@ -37,6 +41,8 @@ body {
 .card h2 {
   font-size: 1.8rem;
   text-transform: uppercase;
+  font-family: 'Big Shoulders';
+  font-weight: 450;
 }
 
 .card p {
